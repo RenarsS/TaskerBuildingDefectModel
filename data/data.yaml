@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['algae', 'major_crack', 'minor_crack', 'peeling', 'spalling', 'stain']
+
+roboflow:
+  workspace: tasker-peqfh
+  project: tasker-app-akhd7
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tasker-peqfh/tasker-app-akhd7/dataset/1
